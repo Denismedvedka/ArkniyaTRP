@@ -1,0 +1,7 @@
+{
+  "name": "arkniyatrp",
+  "private": true,
+  "description": "Блаженная Аркнийская Империя — текстовая РПГ",
+  "scripts": { "test": "node tests/rt.js" },
+  "devDependencies": { "jsdom": "^24.0.0" }
+}
