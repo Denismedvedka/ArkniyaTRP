@@ -31,7 +31,7 @@ window.ARK_ICONS={"destiny": "assets/img/icons/destiny.webp", "empire": "assets/
 
   function open(){
     if(document.getElementById("arkAiPanel"))return;
-    var c=cfg()||PRESETS.openrouter, cur="openrouter";
+    var c=cfg()||PRESETS.mistral, cur="mistral";
     for(var k in PRESETS)if(PRESETS[k].baseUrl&&c.baseUrl===PRESETS[k].baseUrl)cur=k;
     var wrap=document.createElement("div");
     wrap.id="arkAiPanel";
